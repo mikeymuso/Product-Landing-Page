@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="345" viewBox="0 0 345 345">
+  <g id="Group_5" data-name="Group 5" transform="translate(-527 -376)">
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="345" height="345" transform="translate(527 376)" fill="none" opacity="0.175"/>
+    <g id="Rectangle_20" data-name="Rectangle 20" transform="translate(555 516)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="31" height="33" stroke="none"/>
+      <rect x="0.5" y="0.5" width="30" height="32" fill="none"/>
+    </g>
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="31" height="48" transform="translate(592 501)" fill="#fff"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" width="31" height="71" transform="translate(629 478)" fill="#fff"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="31" height="104" transform="translate(666 445)" fill="#fff"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="31" height="33" transform="translate(703 549)" fill="#fff"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" width="31" height="48" transform="translate(740 549)" fill="#fff"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" width="31" height="71" transform="translate(777 549)" fill="#fff"/>
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="31" height="104" transform="translate(814 549)" fill="#fff"/>
+    <line id="Line_3" data-name="Line 3" x2="345" transform="translate(527 548.5)" fill="none" stroke="#d9d9d9" stroke-width="10"/>
+  </g>
+</svg>

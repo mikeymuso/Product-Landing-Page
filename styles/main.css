@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #dfe0e2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Courier Prime", monospace;
+}
+
+p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+nav {
+  background-color: #eb5160;
+}
+
+nav a {
+  color: white !important;
+}
+
+@media only screen and (min-width: 768px) {
+  nav a {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    -webkit-box-shadow: -2px 4px 14px rgba(0, 0, 0, 0.5);
+            box-shadow: -2px 4px 14px rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+  }
+}
+
+.navbar-brand {
+  font-size: 0.8em;
+  color: white !important;
+}
+
+.shop-nav-btn {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier Prime", monospace;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .shop-nav-btn {
+    background-color: #f8f08b;
+    border-radius: 10px;
+    height: 34px;
+    width: 60px;
+    color: black !important;
+    font-size: 0.9em;
+  }
+}
+
+#hero {
+  height: 90vh;
+}
+
+@media only screen and (min-width: 768px) {
+  #hero {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45% 55%;
+        grid-template-columns: 45% 55%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    height: 95vh;
+    place-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-left,
+  .hero-right {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-left {
+    margin: auto;
+    padding-left: 100px;
+  }
+}
+
+.hero-left h1 {
+  font-size: 2.7em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-left h1 {
+    font-size: 3em;
+    text-align: left;
+  }
+}
+
+.hero-left .hero-subheader {
+  margin: 20px 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-left .hero-subheader {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-left .hero-subheader p {
+    text-align: left;
+  }
+}
+
+.hero-left .hero-btn {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #eb5160;
+  cursor: pointer;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-left .hero-btn {
+    margin: 0;
+  }
+}
+
+.hero-left .hero-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.contrast-text-block {
+  position: relative;
+  z-index: 99;
+}
+
+.contrast-text-block::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: -10px;
+  height: 20px;
+  width: 110%;
+  background-color: #f8f08b;
+  z-index: -1;
+}
+
+.hero-right {
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-right {
+    overflow: hidden;
+    margin: 0;
+  }
+}
+
+.hero-right .hero-img {
+  width: 90%;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-right .hero-img {
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    height: 100%;
+    margin: 0;
+  }
+}
+
+.hero-right .hero-img img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.hero-right .callToAction {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  width: 2px;
+  height: 100px;
+  background-color: #eb5160;
+}
+
+.hero-right .hero-background-text {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-right .hero-background-text {
+    display: block;
+    position: absolute;
+    top: 20vh;
+    right: -120px;
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+    font-size: 9em;
+    font-weight: bold;
+    color: white;
+    opacity: 0.1;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-right::after {
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    height: 120vh;
+    width: 55vw;
+    background-color: #eb5160;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+    z-index: -1;
+  }
+}
+
+#about {
+  padding: 40px 10px;
+  background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  #about {
+    padding: 40px 0;
+  }
+}
+
+#about h2 {
+  font-size: 2.6em;
+  margin-bottom: 20px;
+}
+
+#about h2,
+#about p {
+  text-align: left;
+  padding: 0 20px;
+}
+
+#tech {
+  min-height: 100vh;
+  background-color: #071013;
+  color: white;
+  padding: 40px 40px;
+}
+
+#tech .tech-header {
+  margin-bottom: 50px;
+}
+
+#tech h2 {
+  font-size: 2.6em;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+#tech .tech-card {
+  padding-bottom: 20px;
+}
+
+#tech .tech-card h3,
+#tech .tech-card p {
+  text-align: left;
+  margin: 0;
+}
+
+#tech .tech-card .tech-svg {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 8px;
+}
+
+#tech .tech-card img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  background-color: #eb5160;
+  padding: 0 20px;
+}
+
+footer .social-links {
+  padding: 20px 0;
+  fill: white;
+}
+
+footer .social-links img {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+footer .footer-header {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+footer .footer-header h3 {
+  color: #f8f08b;
+  font-size: 2em;
+}
+
+footer .footer-header p {
+  color: white;
+  text-align: left;
+}
+
+footer .contact-details p {
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+footer .contact-details a {
+  text-decoration: none;
+}
+
+footer .copyright {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 0.8em;
+}
+
+.modal-shop {
+  background-color: #dfe0e2;
+}
+
+.modal-shop .modal-header {
+  border-bottom: 4px solid #eb5160;
+}
+
+.modal-shop .btn-modal {
+  background-color: #f8f08b;
+}
+/*# sourceMappingURL=main.css.map */
