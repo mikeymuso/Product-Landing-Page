@@ -12,8 +12,56 @@
 
 <body>
   <header>
-    <?php include './includes/nav.php' ?>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AKAI | Synths</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tech">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="shop-nav-btn btn" data-bs-toggle="modal" data-bs-target="#shopmodal">
+                Shop
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
+
+  <!-- Shop Modal -->
+  <div class="modal fade" id="shopmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modal-shop">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">To the shop...</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          You can add e-commerce to your site to accept all methods of payment. Add a shopping cart so users can come back and checkout later.
+          Get in touch to discuss all options.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-modal" data-bs-dismiss="modal">Continue...</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -99,8 +147,24 @@
     </section>
   </main>
 
-  <?php include './includes/footer.php' ?>
-
+  <footer id="contact">
+    <div class="social-links">
+      <a href="#"><img src="./images/insta-icon.svg" alt="instagram" /></a>
+      <a href="#"><img src="./images/facebook-icon.svg" alt="facebook" /></a>
+      <a href="#"><img src="./images/twitter-icon.svg" alt="twitter" /></a>
+    </div>
+    <div class="footer-header">
+      <h3>Get In Touch</h3>
+      <p>If you have any questions please contact me and I'll be in touch to help you further.</p>
+    </div>
+    <div class="contact-details">
+      <p><strong>Phone: </strong>07872 147300</p>
+      <a href="mailto: mikeyc87@me.com">
+        <p><strong>Email: </strong>mcwebdesign@gmail.com</p>
+      </a>
+    </div>
+    <div class="copyright"> This is a sample website, no copyright intended. Mike Cotton, 2020. All rights reserved.
+  </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
